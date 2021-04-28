@@ -1,0 +1,32 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "target_applications": ["ALL"],
+  "impacted_applications": ["SCHEDULER"],
+  "name": {
+    "ja": "plugin-boilerplate",
+    "en": "plugin-boilerplate",
+    "zh": "plugin-boilerplate",
+    "zh-tw": "plugin-boilerplate"
+  },
+  "description": {
+    "ja": "plugin-boilerplate",
+    "en": "plugin-boilerplate",
+    "zh": "plugin-boilerplate",
+    "zh-tw": "plugin-boilerplate"
+  },
+  "icon": "static/image/icon.jpg",
+  "homepage_url": {
+    "ja": "https://github.com/nakajmg/garoon-plugin-react-ts-boilerplate"
+  },
+  "desktop": {
+    "js": ["dist/js/desktop.js"],
+    "css": []
+  },
+  "config": {
+    "html": "static/config.html",
+    "js": ["dist/js/config.js"],
+    "css": [],
+    "required_params": ["Param1", "Param2"]
+  }
+}
